@@ -233,11 +233,23 @@
                         </div>
                         <div class="tc-body tc-style">
                             <div class="tc-body-left">
-                                <div class="tc-body-btn _tc-text">
-                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1.5625 4.17881H10.1267C10.3849 5.35256 11.4341 6.23374 12.6853 6.23374C13.9366 6.23374 14.9858 5.35259 15.2439 4.17881H18.4375C18.7481 4.17881 19 3.92719 19 3.61685C19 3.30651 18.7481 3.0549 18.4375 3.0549H15.2437C14.9851 1.88174 13.9344 1 12.6853 1C11.4356 1 10.3855 1.8816 10.1269 3.0549H1.5625C1.25186 3.0549 1 3.30651 1 3.61685C1 3.92719 1.25186 4.17881 1.5625 4.17881ZM11.191 3.61833C11.191 3.61633 11.191 3.61429 11.191 3.61229C11.1935 2.79158 11.8638 2.12395 12.6853 2.12395C13.5057 2.12395 14.1761 2.79067 14.1796 3.61099L14.1797 3.61924C14.1784 4.44135 13.5086 5.10986 12.6853 5.10986C11.8625 5.10986 11.1928 4.44201 11.191 3.6204L11.191 3.61833ZM18.4375 15.8212H15.2437C14.985 14.648 13.9344 13.7663 12.6853 13.7663C11.4356 13.7663 10.3855 14.6479 10.1269 15.8212H1.5625C1.25186 15.8212 1 16.0727 1 16.3831C1 16.6935 1.25186 16.9451 1.5625 16.9451H10.1267C10.3849 18.1188 11.4341 19 12.6853 19C13.9366 19 14.9858 18.1188 15.2439 16.9451H18.4375C18.7481 16.9451 19 16.6935 19 16.3831C19 16.0727 18.7481 15.8212 18.4375 15.8212ZM12.6853 17.8761C11.8625 17.8761 11.1928 17.2082 11.191 16.3866L11.191 16.3846C11.191 16.3826 11.191 16.3805 11.191 16.3785C11.1935 15.5578 11.8638 14.8902 12.6853 14.8902C13.5057 14.8902 14.1761 15.5569 14.1796 16.3772L14.1797 16.3854C14.1785 17.2076 13.5086 17.8761 12.6853 17.8761ZM18.4375 9.43804H9.87326C9.61514 8.2643 8.56594 7.38315 7.31466 7.38315C6.06338 7.38315 5.01418 8.2643 4.75606 9.43804H1.5625C1.25186 9.43804 1 9.68966 1 10C1 10.3104 1.25186 10.562 1.5625 10.562H4.75634C5.01498 11.7351 6.06559 12.6169 7.31466 12.6169C8.56439 12.6169 9.61455 11.7352 9.87305 10.562H18.4375C18.7481 10.562 19 10.3104 19 10C19 9.68966 18.7481 9.43804 18.4375 9.43804ZM8.80901 9.99852C8.80901 10.0006 8.80898 10.0026 8.80898 10.0046C8.80652 10.8253 8.13619 11.4929 7.31466 11.4929C6.49429 11.4929 5.82393 10.8262 5.82038 10.0059L5.82027 9.99768C5.8215 9.17547 6.49141 8.50706 7.31466 8.50706C8.13753 8.50706 8.80718 9.17487 8.80905 9.99652L8.80901 9.99852Z" fill="#4E505A" stroke="#4E505A" stroke-width="0.4"/>
-                                    </svg>
-                                    Фильтр по поиску
+                                <div class="tc-body-btn">
+                                    Сортировать
+                                    <div class="tc-select">
+                                        <div class="tc-select-top">
+                                            <input class="tc-select-top-input" placeholder="По номеру" type="text" value="По номеру">
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <line x1="4.41421" y1="8" x2="10" y2="13.5858" stroke="#CB2222" stroke-width="2" stroke-linecap="round"/>
+                                                <line x1="1" y1="-1" x2="8.89949" y2="-1" transform="matrix(-0.707107 0.707107 0.707107 0.707107 17 8)" stroke="#CB2222" stroke-width="2" stroke-linecap="round"/>
+                                            </svg>
+                                            
+                                        </div>
+                                        <div class="tc-select-top-list">
+                                            <div class="tc-select-top-item">По номеру</div>
+                                            <div class="tc-select-top-item">По номеру 432</div>
+                                            <div class="tc-select-top-item">По номеру 123</div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <form action="#" class="tc-body-search">
                                     <input class="_tc-text" placeholder="поиск" type="search">
@@ -261,6 +273,34 @@
                                 <path d="M4.18824 12V7.74118H0V4.25882H4.18824V0H7.81176V4.25882H12V7.74118H7.81176V12H4.18824Z" fill="white"/>
                                 </svg>
                                 </span> Добавить ТС</button>
+                        </div>
+                        <div class="tc-mini tc-style">
+                            <button type="button" class="tc-body-btn-red pop-up-active _tc-text"><span>
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.18824 12V7.74118H0V4.25882H4.18824V0H7.81176V4.25882H12V7.74118H7.81176V12H4.18824Z" fill="white"/>
+                                </svg>
+                                </span> Добавить ТС
+                            </button>
+                        </div>
+                        <div class="tc-mini tc-style">
+                            <div class="tc-body-btn">
+                                Сортировать
+                                <div class="tc-select">
+                                    <div class="tc-select-top">
+                                        <input class="tc-select-top-input" placeholder="По номеру" type="text" value="По номеру">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <line x1="4.41421" y1="8" x2="10" y2="13.5858" stroke="#CB2222" stroke-width="2" stroke-linecap="round"/>
+                                            <line x1="1" y1="-1" x2="8.89949" y2="-1" transform="matrix(-0.707107 0.707107 0.707107 0.707107 17 8)" stroke="#CB2222" stroke-width="2" stroke-linecap="round"/>
+                                        </svg>
+                                        
+                                    </div>
+                                    <div class="tc-select-top-list">
+                                        <div class="tc-select-top-item">По номеру</div>
+                                        <div class="tc-select-top-item">По номеру 432</div>
+                                        <div class="tc-select-top-item">По номеру 123</div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="tc-end">
                             <table class="tc-table" >
@@ -337,6 +377,152 @@
                                     <td>В работе</td>
                                 </tr>
                             </table>
+                            <div class="table-mini">
+                                <div class="table-mini-block table-mini-block-use">
+                                    <div class="table-mini-top">
+                                     <div class="table-mini-top-number _table-text-style">Рег. номер</div>
+                                     <div class="table-mini-top-text">
+                                        <span class="table-mini-top-text-item _table-text-style">А338СУ122</span>
+                                        <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <line x1="1.41421" y1="1" x2="7" y2="6.58579" stroke="#8E909D" stroke-width="2" stroke-linecap="round"/>
+                                            <line x1="1" y1="-1" x2="8.89949" y2="-1" transform="matrix(-0.707107 0.707107 0.707107 0.707107 14 1)" stroke="#8E909D" stroke-width="2" stroke-linecap="round"/>
+                                        </svg>
+                                     </div>  
+                                    </div>
+                                    <div class="table-mini-items">
+                                        <div class="table-mini-item">Дата добавления</div>
+                                        <div class="table-mini-item">23.12.2022<span>10:54</span></div>
+                                        <div class="table-mini-item">Статус</div>
+                                        <div class="table-mini-item">В работе</div>
+                                    </div>
+                                </div>
+                                <div class="table-mini-block table-mini-block-off">
+                                    <div class="table-mini-top">
+                                     <div class="table-mini-top-number _table-text-style">Рег. номер</div>
+                                     <div class="table-mini-top-text">
+                                        <span class="table-mini-top-text-item _table-text-style">А338СУ122</span>
+                                        <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <line x1="1.41421" y1="1" x2="7" y2="6.58579" stroke="#8E909D" stroke-width="2" stroke-linecap="round"/>
+                                            <line x1="1" y1="-1" x2="8.89949" y2="-1" transform="matrix(-0.707107 0.707107 0.707107 0.707107 14 1)" stroke="#8E909D" stroke-width="2" stroke-linecap="round"/>
+                                        </svg>
+                                     </div>  
+                                    </div>
+                                    <div class="table-mini-items">
+                                        <div class="table-mini-item">Дата добавления</div>
+                                        <div class="table-mini-item">23.12.2022<span>10:54</span></div>
+                                        <div class="table-mini-item">Статус</div>
+                                        <div class="table-mini-item">На модерации</div>
+                                    </div>
+                                </div>
+                                <div class="table-mini-block table-mini-block-use">
+                                    <div class="table-mini-top">
+                                     <div class="table-mini-top-number _table-text-style">Рег. номер</div>
+                                     <div class="table-mini-top-text">
+                                        <span class="table-mini-top-text-item _table-text-style">А338СУ122</span>
+                                        <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <line x1="1.41421" y1="1" x2="7" y2="6.58579" stroke="#8E909D" stroke-width="2" stroke-linecap="round"/>
+                                            <line x1="1" y1="-1" x2="8.89949" y2="-1" transform="matrix(-0.707107 0.707107 0.707107 0.707107 14 1)" stroke="#8E909D" stroke-width="2" stroke-linecap="round"/>
+                                        </svg>
+                                     </div>  
+                                    </div>
+                                    <div class="table-mini-items">
+                                        <div class="table-mini-item">Дата добавления</div>
+                                        <div class="table-mini-item">23.12.2022<span>10:54</span></div>
+                                        <div class="table-mini-item">Статус</div>
+                                        <div class="table-mini-item">В работе</div>
+                                    </div>
+                                </div>
+                                <div class="table-mini-block table-mini-block-off">
+                                    <div class="table-mini-top">
+                                     <div class="table-mini-top-number _table-text-style">Рег. номер</div>
+                                     <div class="table-mini-top-text">
+                                        <span class="table-mini-top-text-item _table-text-style">А338СУ122</span>
+                                        <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <line x1="1.41421" y1="1" x2="7" y2="6.58579" stroke="#8E909D" stroke-width="2" stroke-linecap="round"/>
+                                            <line x1="1" y1="-1" x2="8.89949" y2="-1" transform="matrix(-0.707107 0.707107 0.707107 0.707107 14 1)" stroke="#8E909D" stroke-width="2" stroke-linecap="round"/>
+                                        </svg>
+                                     </div>  
+                                    </div>
+                                    <div class="table-mini-items">
+                                        <div class="table-mini-item">Дата добавления</div>
+                                        <div class="table-mini-item">23.12.2022<span>10:54</span></div>
+                                        <div class="table-mini-item">Статус</div>
+                                        <div class="table-mini-item">В работе</div>
+                                    </div>
+                                </div>
+                                <div class="table-mini-block table-mini-block-use">
+                                    <div class="table-mini-top">
+                                     <div class="table-mini-top-number _table-text-style">Рег. номер</div>
+                                     <div class="table-mini-top-text">
+                                        <span class="table-mini-top-text-item _table-text-style">А338СУ122</span>
+                                        <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <line x1="1.41421" y1="1" x2="7" y2="6.58579" stroke="#8E909D" stroke-width="2" stroke-linecap="round"/>
+                                            <line x1="1" y1="-1" x2="8.89949" y2="-1" transform="matrix(-0.707107 0.707107 0.707107 0.707107 14 1)" stroke="#8E909D" stroke-width="2" stroke-linecap="round"/>
+                                        </svg>
+                                     </div>  
+                                    </div>
+                                    <div class="table-mini-items">
+                                        <div class="table-mini-item">Дата добавления</div>
+                                        <div class="table-mini-item">23.12.2022<span>10:54</span></div>
+                                        <div class="table-mini-item">Статус</div>
+                                        <div class="table-mini-item">В работе</div>
+                                    </div>
+                                </div>
+                                <div class="table-mini-block table-mini-block-off">
+                                    <div class="table-mini-top">
+                                     <div class="table-mini-top-number _table-text-style">Рег. номер</div>
+                                     <div class="table-mini-top-text">
+                                        <span class="table-mini-top-text-item _table-text-style">А338СУ122</span>
+                                        <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <line x1="1.41421" y1="1" x2="7" y2="6.58579" stroke="#8E909D" stroke-width="2" stroke-linecap="round"/>
+                                            <line x1="1" y1="-1" x2="8.89949" y2="-1" transform="matrix(-0.707107 0.707107 0.707107 0.707107 14 1)" stroke="#8E909D" stroke-width="2" stroke-linecap="round"/>
+                                        </svg>
+                                     </div>  
+                                    </div>
+                                    <div class="table-mini-items">
+                                        <div class="table-mini-item">Дата добавления</div>
+                                        <div class="table-mini-item">23.12.2022<span>10:54</span></div>
+                                        <div class="table-mini-item">Статус</div>
+                                        <div class="table-mini-item">В работе</div>
+                                    </div>
+                                </div>
+                                <div class="table-mini-block table-mini-block-use">
+                                    <div class="table-mini-top">
+                                     <div class="table-mini-top-number _table-text-style">Рег. номер</div>
+                                     <div class="table-mini-top-text">
+                                        <span class="table-mini-top-text-item _table-text-style">А338СУ122</span>
+                                        <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <line x1="1.41421" y1="1" x2="7" y2="6.58579" stroke="#8E909D" stroke-width="2" stroke-linecap="round"/>
+                                            <line x1="1" y1="-1" x2="8.89949" y2="-1" transform="matrix(-0.707107 0.707107 0.707107 0.707107 14 1)" stroke="#8E909D" stroke-width="2" stroke-linecap="round"/>
+                                        </svg>
+                                     </div>  
+                                    </div>
+                                    <div class="table-mini-items">
+                                        <div class="table-mini-item">Дата добавления</div>
+                                        <div class="table-mini-item">23.12.2022<span>10:54</span></div>
+                                        <div class="table-mini-item">Статус</div>
+                                        <div class="table-mini-item">В работе</div>
+                                    </div>
+                                </div>
+                                <div class="table-mini-block table-mini-block-off">
+                                    <div class="table-mini-top">
+                                     <div class="table-mini-top-number _table-text-style">Рег. номер</div>
+                                     <div class="table-mini-top-text">
+                                        <span class="table-mini-top-text-item _table-text-style">А338СУ122</span>
+                                        <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <line x1="1.41421" y1="1" x2="7" y2="6.58579" stroke="#8E909D" stroke-width="2" stroke-linecap="round"/>
+                                            <line x1="1" y1="-1" x2="8.89949" y2="-1" transform="matrix(-0.707107 0.707107 0.707107 0.707107 14 1)" stroke="#8E909D" stroke-width="2" stroke-linecap="round"/>
+                                        </svg>
+                                     </div>  
+                                    </div>
+                                    <div class="table-mini-items">
+                                        <div class="table-mini-item">Дата добавления</div>
+                                        <div class="table-mini-item">23.12.2022<span>10:54</span></div>
+                                        <div class="table-mini-item">Статус</div>
+                                        <div class="table-mini-item">В работе</div>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="tc-end-control">
                                 <button type="button" class="tc-end-control-btn">
                                     <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -400,7 +586,7 @@
                             </div>
                         </div>
                         <div class="pop-up-form-buttons">
-                            <button type="button" class="tc-body-btn-red _tc-text">
+                            <button type="button" class="tc-body-btn-red _tc-text pop-up-thanks-open">
                                 <span>
                                 <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M4.18824 12V7.74118H0V4.25882H4.18824V0H7.81176V4.25882H12V7.74118H7.81176V12H4.18824Z" fill="white"></path>
@@ -410,9 +596,232 @@
                             </button>
                             <button type="button" class="pop-up-form-close pop-up-active">Закрыть</button>
                         </div>
+                        <div class="pop-up-thanks">
+                            <svg width="83" height="83" viewBox="0 0 83 83" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M41.5 81.3399C19.5324 81.3399 1.66 63.4675 1.66 41.4999C1.66 19.5323 19.5324 1.65991 41.5 1.65991C63.4676 1.65991 81.34 19.5323 81.34 41.4999C81.34 63.4675 63.4676 81.3399 41.5 81.3399ZM41.5 6.63991C22.278 6.63991 6.64 22.2779 6.64 41.4999C6.64 60.7219 22.278 76.3599 41.5 76.3599C60.722 76.3599 76.36 60.7219 76.36 41.4999C76.36 22.2779 60.722 6.63991 41.5 6.63991ZM38.2804 53.2203L58.2004 33.3003C59.1732 32.3276 59.1732 30.7522 58.2004 29.7795C57.2277 28.8067 55.6523 28.8067 54.6796 29.7795L36.52 47.939L28.3204 39.7395C27.3477 38.7667 25.7723 38.7667 24.7996 39.7395C23.8268 40.7122 23.8268 42.2876 24.7996 43.2603L34.7596 53.2203C35.2459 53.7067 35.8826 53.9499 36.52 53.9499C37.1574 53.9499 37.794 53.7067 38.2804 53.2203Z" fill="#CB2222"/>
+                                </svg>
+                                
+                            <div class="pop-up-thanks-text">Транспортное средство успешно добавлено</div>
+                            <div class="pop-up-thanks-btn tc-body-btn-red">Закрыть</div>
+                        </div>
                     </form>
+
                 </div>
-            </div>    
+            </div>
+            <div class="navigation">
+                <div class="navigation-row">
+                    <a href="#" class="navigation-link">
+                        <svg width="29" height="35" viewBox="0 0 29 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_145_899)">
+                            <path d="M28.6708 16.3458L16.8675 3.98431C16.8523 3.9684 16.8366 3.95296 16.8207 3.93799C15.5318 2.73398 13.5842 2.72968 12.2904 3.92803C12.2744 3.94294 12.2587 3.95832 12.2435 3.97412L0.332587 16.3422C-0.110229 16.8021 -0.110966 17.5483 0.331001 18.009C0.773025 18.4697 1.49027 18.4704 1.93302 18.0107L2.83203 17.0771V27.2535C2.83203 29.853 4.86474 31.9679 7.36328 31.9679H11.4414C12.0671 31.9679 12.5742 31.4403 12.5742 30.7893V21.1836H16.5391V30.7893C16.5391 31.4403 17.0462 31.9679 17.6719 31.9679H21.6367C24.1352 31.9679 26.168 29.853 26.168 27.2535C26.168 26.6025 25.6608 26.0749 25.0352 26.0749C24.4095 26.0749 23.9023 26.6025 23.9023 27.2535C23.9023 28.5533 22.886 29.6107 21.6367 29.6107H18.8047V20.005C18.8047 19.3541 18.2975 18.8264 17.6719 18.8264H11.4414C10.8157 18.8264 10.3086 19.3541 10.3086 20.005V29.6107H7.36328C6.11401 29.6107 5.09765 28.5533 5.09765 27.2535V14.7602C5.09765 14.7484 5.09748 14.7367 5.09714 14.725L13.8172 5.67031C14.2417 5.29534 14.8641 5.29675 15.2869 5.67355L23.9023 14.6964V21.3604C23.9023 22.0114 24.4095 22.5391 25.0352 22.5391C25.6608 22.5391 26.168 22.0114 26.168 21.3604V17.0691L27.0636 18.0071C27.285 18.239 27.576 18.355 27.8672 18.355C28.1559 18.355 28.4446 18.2409 28.6656 18.0125C29.1094 17.5538 29.1118 16.8075 28.6708 16.3458Z" fill="#8E909D"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_145_899">
+                            <rect width="29" height="35" fill="white"/>
+                            </clipPath>
+                            </defs>
+                            </svg>
+                            
+                    </a>
+                    <a href="#" class="navigation-link">
+                        <svg width="30" height="35" viewBox="0 0 30 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_145_903)">
+                            <path d="M25.6043 6.89592C19.7437 1.03534 10.2574 1.03446 4.39596 6.89592C-1.46469 12.7564 -1.46563 22.2429 4.39596 28.1043C10.2565 33.9649 19.7429 33.9658 25.6043 28.1043C31.4649 22.2438 31.4658 12.7573 25.6043 6.89592ZM15.0001 30.0331C8.08935 30.0331 2.46703 24.4108 2.46703 17.5001C2.46703 10.5894 8.08935 4.96711 15.0001 4.96711C21.9108 4.96711 27.5331 10.5894 27.5331 17.5001C27.5331 24.4109 21.9108 30.0331 15.0001 30.0331Z" fill="#8E909D"/>
+                            <path d="M16.877 10.0114H12.4973C11.817 10.0114 11.2655 10.5629 11.2655 11.2432V16.2682H9.99461C9.31431 16.2682 8.76282 16.8197 8.76282 17.5C8.76282 18.1803 9.31431 18.7318 9.99461 18.7318H11.2655V20.0222H9.99461C9.31431 20.0222 8.76282 20.5737 8.76282 21.254C8.76282 21.9343 9.31431 22.4858 9.99461 22.4858H11.2655V23.7567C11.2655 24.437 11.817 24.9885 12.4973 24.9885C13.1776 24.9885 13.7291 24.437 13.7291 23.7567V22.4858H16.2513C16.9316 22.4858 17.4831 21.9343 17.4831 21.254C17.4831 20.5737 16.9316 20.0222 16.2513 20.0222H13.7291V18.7318H16.877C19.2812 18.7318 21.2371 16.7758 21.2371 14.3716C21.2371 11.9674 19.2812 10.0114 16.877 10.0114ZM16.877 16.2681H13.7291V12.475H16.877C17.9227 12.475 18.7736 13.3257 18.7736 14.3715C18.7736 15.4173 17.9228 16.2681 16.877 16.2681Z" fill="#8E909D"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_145_903">
+                            <rect width="30" height="35" fill="white"/>
+                            </clipPath>
+                            </defs>
+                            </svg>
+                            
+                    </a>
+                    <a href="#" class="tc-top-notice">
+                        <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24.4333 20.25L21.6428 8.53622C21.0469 6.03049 19.7485 3.8289 17.9543 2.28183C16.16 0.734762 13.973 -0.068874 11.7413 -0.00117441C9.5096 0.0665252 7.36147 1.00167 5.6388 2.65543C3.91613 4.30918 2.7179 6.58651 2.23483 9.12497L0.0764846 20.4375C-0.0279525 20.9855 -0.0254051 21.5539 0.0839389 22.1006C0.193283 22.6474 0.406633 23.1586 0.708249 23.5965C1.00986 24.0344 1.39205 24.3878 1.82661 24.6307C2.26116 24.8737 2.737 24.9998 3.21902 25H7.09031C7.33664 26.4128 7.99479 27.6831 8.95323 28.5954C9.91168 29.5078 11.1115 30.0062 12.3493 30.0062C13.5872 30.0062 14.787 29.5078 15.7454 28.5954C16.7039 27.6831 17.362 26.4128 17.6084 25H21.3326C21.8286 24.9997 22.3178 24.866 22.7621 24.6093C23.2064 24.3526 23.5938 23.9798 23.894 23.52C24.1942 23.0603 24.3992 22.5259 24.4929 21.9587C24.5867 21.3915 24.5656 20.8067 24.4333 20.25ZM12.3493 27.5C11.6858 27.4968 11.0393 27.2549 10.4983 26.8074C9.95726 26.3599 9.54819 25.7286 9.32701 25H15.3717C15.1505 25.7286 14.7414 26.3599 14.2004 26.8074C13.6594 27.2549 13.0129 27.4968 12.3493 27.5ZM22.1859 22.0062C22.0857 22.1608 21.9559 22.286 21.8069 22.3717C21.6578 22.4575 21.4935 22.5014 21.3272 22.5H3.21902C3.05831 22.4999 2.89966 22.4579 2.75478 22.3769C2.60989 22.2959 2.48247 22.178 2.38193 22.032C2.28138 21.886 2.21028 21.7155 2.17386 21.5332C2.13744 21.3509 2.13664 21.1614 2.17151 20.9787L4.32986 9.66622C4.71017 7.67398 5.65138 5.88697 7.00386 4.58928C8.35635 3.29159 10.0425 2.55768 11.7942 2.50424C13.546 2.45079 15.2628 3.08087 16.6717 4.29431C18.0807 5.50775 19.1009 7.2349 19.5703 9.20122L22.3608 20.915C22.4064 21.1002 22.4143 21.2952 22.3839 21.4846C22.3536 21.674 22.2857 21.8526 22.1859 22.0062Z" fill="#8E909D"/>
+                            </svg>
+                            
+                        <span class="tc-top-notice">11</span> 
+                    </a>
+                    <div class="menu-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu">
+                <div class="menu-top">
+                    <div class="tc-top-user">
+                        <div class="tc-top-user-img">
+                            <svg width="24" height="24" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_73_1108)">
+                                <path d="M13 13C14.2856 13 15.5423 12.6188 16.6112 11.9046C17.6801 11.1903 18.5132 10.1752 19.0052 8.98745C19.4972 7.79973 19.6259 6.49279 19.3751 5.23192C19.1243 3.97104 18.5052 2.81285 17.5962 1.90381C16.6872 0.994768 15.529 0.375703 14.2681 0.124899C13.0072 -0.125905 11.7003 0.00281636 10.5126 0.494786C9.32484 0.986756 8.30968 1.81988 7.59545 2.8888C6.88122 3.95772 6.5 5.21442 6.5 6.5C6.50172 8.22338 7.18709 9.87568 8.40571 11.0943C9.62432 12.3129 11.2766 12.9983 13 13ZM13 2.16667C13.8571 2.16667 14.6949 2.42082 15.4075 2.89697C16.1201 3.37312 16.6755 4.0499 17.0035 4.84171C17.3315 5.63352 17.4173 6.50481 17.2501 7.34539C17.0829 8.18598 16.6702 8.95811 16.0641 9.56413C15.4581 10.1702 14.686 10.5829 13.8454 10.7501C13.0048 10.9173 12.1335 10.8315 11.3417 10.5035C10.5499 10.1755 9.87312 9.62009 9.39697 8.90747C8.92081 8.19486 8.66667 7.35706 8.66667 6.5C8.66667 5.35073 9.12321 4.24853 9.93587 3.43587C10.7485 2.62322 11.8507 2.16667 13 2.16667Z" fill="#8E909D"/>
+                                <path d="M13 15.1667C10.415 15.1695 7.93673 16.1977 6.10888 18.0255C4.28102 19.8534 3.25287 22.3317 3.25 24.9167C3.25 25.204 3.36414 25.4795 3.5673 25.6827C3.77047 25.8859 4.04602 26 4.33333 26C4.62065 26 4.8962 25.8859 5.09937 25.6827C5.30253 25.4795 5.41667 25.204 5.41667 24.9167C5.41667 22.9054 6.21562 20.9766 7.63777 19.5544C9.05992 18.1323 10.9888 17.3333 13 17.3333C15.0112 17.3333 16.9401 18.1323 18.3622 19.5544C19.7844 20.9766 20.5833 22.9054 20.5833 24.9167C20.5833 25.204 20.6975 25.4795 20.9006 25.6827C21.1038 25.8859 21.3793 26 21.6667 26C21.954 26 22.2295 25.8859 22.4327 25.6827C22.6359 25.4795 22.75 25.204 22.75 24.9167C22.7471 22.3317 21.719 19.8534 19.8911 18.0255C18.0633 16.1977 15.585 15.1695 13 15.1667Z" fill="#8E909D"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_73_1108">
+                                <rect width="26" height="26" fill="white"/>
+                                </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="tc-top-user-names">
+                            <a href="#" class="tc-top-user-name _tc-text">kondrashov@ya23214</a>
+                            <div class="tc-top-user-arrow">                        
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="menu-top-price">
+                        <span>54 400</span> ₽
+                    </a>
+                </div>
+                
+                <nav class="tc-nav">
+                    <ul class="tc-list">
+                        <li class="tc-link-active"><a href="#" class="tc-link tc-link-one _tc-text">
+                            <svg width="25" height="29" viewBox="0 0 25 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_73_1042)">
+                                <path d="M24.7162 13.5436L14.5409 3.30129C14.5279 3.2881 14.5143 3.27531 14.5006 3.26291C13.3895 2.2653 11.7105 2.26174 10.5952 3.25466C10.5813 3.26701 10.5679 3.27976 10.5547 3.29284L0.286713 13.5406C-0.0950251 13.9217 -0.0956599 14.54 0.285346 14.9217C0.666401 15.3035 1.28471 15.3041 1.6664 14.9231L2.4414 14.1496V22.5815C2.4414 24.7354 4.19374 26.4877 6.34765 26.4877H9.86328C10.4026 26.4877 10.8398 26.0505 10.8398 25.5112V17.5522H14.2578V25.5112C14.2578 26.0505 14.695 26.4877 15.2344 26.4877H18.6523C20.8062 26.4877 22.5586 24.7354 22.5586 22.5815C22.5586 22.0421 22.1214 21.6049 21.582 21.6049C21.0427 21.6049 20.6055 22.0421 20.6055 22.5815C20.6055 23.6584 19.7293 24.5346 18.6523 24.5346H16.2109V16.5756C16.2109 16.0362 15.7737 15.599 15.2344 15.599H9.86328C9.32392 15.599 8.88671 16.0362 8.88671 16.5756V24.5346H6.34765C5.2707 24.5346 4.39453 23.6584 4.39453 22.5815V12.2299C4.39453 12.2201 4.39438 12.2104 4.39409 12.2008L11.9114 4.69826C12.2773 4.38757 12.8139 4.38874 13.1784 4.70095L20.6055 12.177V17.6987C20.6055 18.238 21.0427 18.6752 21.582 18.6752C22.1214 18.6752 22.5586 18.238 22.5586 17.6987V14.143L23.3307 14.9202C23.5215 15.1123 23.7724 15.2085 24.0234 15.2085C24.2723 15.2085 24.5212 15.1139 24.7117 14.9247C25.0943 14.5446 25.0964 13.9262 24.7162 13.5436Z" fill="#3A3C48"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_73_1042">
+                                <rect width="25" height="29" fill="white"/>
+                                </clipPath>
+                                </defs>
+                            </svg>
+                            Главная
+                        </a></li>
+                        <li><a href="#" class="tc-link tc-link-two _tc-text">
+                            <svg width="24" height="28" viewBox="0 0 24 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_73_965)">
+                                <mask id="mask0_73_965" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="1" width="25" height="25">
+                                <path d="M0 1H25V26H0V1Z" fill="white"/>
+                                </mask>
+                                <g mask="url(#mask0_73_965)">
+                                <path d="M7.09591 5.34782H16.8185C17.1341 5.34782 17.3912 5.64979 17.3912 6.01801V7.94031C17.3912 8.3086 17.1341 8.60869 16.8185 8.60869H7.09591C6.78035 8.60869 6.52167 8.3086 6.52167 7.94031V6.01801C6.52167 5.64979 6.78035 5.34782 7.09591 5.34782Z" stroke="#3A3C48" stroke-width="1.7" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M17.6501 7.52174L21.3206 7.52174C22.1485 7.52174 22.826 8.27092 22.826 9.18623V23.2499C22.826 24.1653 22.1485 24.913 21.3206 24.913H2.59111C1.76449 24.913 1.08691 24.1653 1.08691 23.2499V9.18623C1.08691 8.27092 1.76449 7.52174 2.59111 7.52174L6.05487 7.52174" stroke="#3A3C48" stroke-width="1.7" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M13.0435 4.72705V3.22528C13.0435 2.59927 12.3093 2.08696 11.4123 2.08696C10.5153 2.08696 9.78119 2.59927 9.78119 3.22528V4.72705" stroke="#3A3C48" stroke-width="1.7" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M5.43475 12.9565H18.4782" stroke="#3A3C48" stroke-width="1.7" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M5.43475 16.2174H18.4782" stroke="#3A3C48" stroke-width="1.7" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M5.43475 19.4783H18.4782" stroke="#3A3C48" stroke-width="1.7" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_73_965">
+                                <rect width="24" height="28" fill="white"/>
+                                </clipPath>
+                                </defs>
+                            </svg>
+                            Пропуска
+                        </a></li>
+                        <li><a href="#" class="tc-link tc-link-two _tc-text">
+                            <svg width="25" height="29" viewBox="0 0 25 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18.354 7.95703H9.81445" stroke="#3A3C48" stroke-width="1.7" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M18.354 11.8633H9.81445" stroke="#3A3C48" stroke-width="1.7" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12.3969 15.7695H9.81445" stroke="#3A3C48" stroke-width="1.7" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <mask id="mask0_73_1047" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="2" width="25" height="25">
+                                <path d="M0 2H25V27H0V2Z" fill="white"/>
+                                </mask>
+                                <g mask="url(#mask0_73_1047)">
+                                <path d="M19.873 26.0234C20.9415 24.6715 23.877 25.1836 23.877 22.6847C23.877 21.6196 23.3398 20.9771 23.3398 19.8711C23.3398 18.9903 24.0234 17.6459 24.0234 17.6459L23.1194 16.7447H16.6267L15.7227 17.6459C15.7227 17.6459 16.4062 18.9978 16.4062 19.8785C16.4062 20.9846 15.8691 21.638 15.8691 22.7031C15.8691 25.2021 18.8046 24.6715 19.873 26.0234Z" stroke="#3A3C48" stroke-width="1.7" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M5.66406 7.56641H0.976562V5.44253C0.976562 4.08067 2.08066 2.97661 3.44253 2.97676H3.44258C4.80435 2.97686 5.9082 4.08081 5.9082 5.44253V23.0938C5.9082 24.7118 7.21987 26.0234 8.83789 26.0234H13.0859" stroke="#3A3C48" stroke-width="1.7" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M3.95526 2.97656L19.1895 2.97671C20.8075 2.97671 22.1192 4.28838 22.1192 5.9064V12.8398" stroke="#3A3C48" stroke-width="1.7" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                            </svg>
+                            Штрафы
+                        </a></li>
+                        <li><a href="#" class="tc-link tc-link-one _tc-text">
+                            <svg width="23" height="29" viewBox="0 0 23 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_73_1075)">
+                                <path d="M19.47 3.78263H17.9797C17.571 2.68193 16.4707 1.89129 15.18 1.89129H14.0204C13.6118 0.790477 12.5107 0 11.22 0C9.92926 0 8.82818 0.790477 8.41962 1.89129H7.26001C5.96936 1.89129 4.86898 2.68193 4.46031 3.78257H2.97C1.33234 3.78263 0 5.05529 0 6.61959V26.163C0 27.7273 1.33234 29 2.97 29H19.47C21.1077 29 22.44 27.7273 22.44 26.163V6.61959C22.44 5.05529 21.1077 3.78263 19.47 3.78263ZM6.26999 4.72825C6.26999 4.20681 6.71413 3.78257 7.26001 3.78257H9.24C9.78671 3.78257 10.23 3.35919 10.23 2.8369C10.23 2.31547 10.6741 1.89123 11.22 1.89123C11.7659 1.89123 12.2101 2.31547 12.2101 2.8369C12.2101 3.35913 12.6533 3.78257 13.2001 3.78257H15.18C15.7259 3.78257 16.17 4.20681 16.17 4.72825V5.67392H6.26999V4.72825ZM20.46 26.163C20.46 26.6845 20.0158 27.1087 19.4699 27.1087H2.97C2.42412 27.1087 1.97998 26.6845 1.97998 26.163V6.61959C1.97998 6.09816 2.42412 5.67392 2.97 5.67392H4.29001V6.61959C4.29001 7.14182 4.73325 7.56526 5.28003 7.56526H17.16C17.7068 7.56526 18.1501 7.14187 18.1501 6.61959V5.67392H19.4701C20.016 5.67392 20.4601 6.09816 20.4601 6.61959V26.163H20.46Z" fill="#4E505A"/>
+                                <path d="M11.59 10.9943C11.2035 10.6251 10.5766 10.6251 10.19 10.9943L6.92996 14.1083L5.64998 12.8857C5.26342 12.5164 4.63654 12.5164 4.24992 12.8857C3.86331 13.2549 3.86331 13.8537 4.24992 14.223L6.22996 16.1143C6.61658 16.4836 7.24341 16.4836 7.63002 16.1143L11.59 12.3317C11.9767 11.9624 11.9767 11.3636 11.59 10.9943Z" fill="#4E505A"/>
+                                <path d="M11.59 18.5595C11.2035 18.1903 10.5766 18.1903 10.19 18.5595L6.93002 21.6735L5.65004 20.4509C5.26349 20.0816 4.6366 20.0816 4.24998 20.4509C3.86337 20.8201 3.86337 21.4189 4.24998 21.7882L6.23003 23.6795C6.61664 24.0488 7.24347 24.0488 7.63008 23.6795L11.5901 19.8969C11.9767 19.5276 11.9767 18.9288 11.59 18.5595Z" fill="#4E505A"/>
+                                <path d="M17.49 10.7174H14.85C14.3033 10.7174 13.86 11.1408 13.86 11.663C13.86 12.1853 14.3032 12.6087 14.85 12.6087H17.49C18.0367 12.6087 18.48 12.1853 18.48 11.663C18.48 11.1408 18.0367 10.7174 17.49 10.7174Z" fill="#4E505A"/>
+                                <path d="M17.49 14.5H12.87C12.3233 14.5 11.88 14.9234 11.88 15.4457C11.88 15.9679 12.3232 16.3913 12.87 16.3913H17.49C18.0367 16.3913 18.48 15.968 18.48 15.4457C18.48 14.9234 18.0367 14.5 17.49 14.5Z" fill="#4E505A"/>
+                                <path d="M17.49 18.2826H14.85C14.3033 18.2826 13.86 18.706 13.86 19.2283C13.86 19.7506 14.3032 20.174 14.85 20.174H17.49C18.0367 20.174 18.48 19.7506 18.48 19.2283C18.48 18.706 18.0367 18.2826 17.49 18.2826Z" fill="#4E505A"/>
+                                <path d="M17.49 22.0652H12.87C12.3233 22.0652 11.88 22.4886 11.88 23.0109C11.88 23.5332 12.3232 23.9566 12.87 23.9566H17.49C18.0367 23.9566 18.48 23.5332 18.48 23.0109C18.48 22.4886 18.0367 22.0652 17.49 22.0652Z" fill="#4E505A"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_73_1075">
+                                <rect width="23" height="29" fill="white"/>
+                                </clipPath>
+                                </defs>
+                            </svg>
+                            Диагностические карты
+                        </a></li>
+                        <li><a href="#" class="tc-link tc-link-one _tc-text">
+                            <svg width="26" height="28" viewBox="0 0 26 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.5098 5.2917C17.7412 5.2917 15.0798 4.28487 13.0156 2.45675L12.5 2L11.9844 2.45675C9.9203 4.28492 7.25875 5.29175 4.4902 5.29175H2V10.6979C2 13.8285 2.89786 16.8786 4.59655 19.5183C6.29524 22.1579 8.7072 24.2513 11.5717 25.572L12.5 26L13.4283 25.572C16.2928 24.2513 18.7048 22.158 20.4035 19.5183C22.1021 16.8786 23 13.8285 23 10.6979V5.2917H20.5098ZM21.5803 10.6978C21.5803 13.56 20.7594 16.3485 19.2064 18.7618C17.6534 21.1752 15.4483 23.089 12.8293 24.2965L12.5 24.4483L12.1706 24.2965C9.55169 23.089 7.3466 21.1752 5.79356 18.7618C4.24057 16.3484 3.41973 13.56 3.41973 10.6978V6.69847H4.49025C7.41912 6.69847 10.2415 5.69811 12.5 3.87013C14.7585 5.69802 17.5809 6.69847 20.5098 6.69847H21.5804V10.6978H21.5803Z" fill="#4E505A" stroke="#3A3C48" stroke-width="0.3"/>
+                                <path d="M16.7071 11.2928C16.3167 10.9024 15.6834 10.9024 15.2929 11.2928L12 14.5858L10.7071 13.2929C10.3166 12.9024 9.68341 12.9024 9.29289 13.2929C8.90237 13.6834 8.90237 14.3166 9.29289 14.7071L11.2929 16.7071C11.6834 17.0976 12.3166 17.0976 12.7071 16.7071L16.7071 12.7071C17.0976 12.3166 17.0976 11.6834 16.7071 11.2928Z" fill="#4E505A"/>
+                            </svg>
+                            Страховка
+                        </a></li>
+                        <li><a href="#" class="tc-link tc-link-two _tc-text">
+                            <svg width="25" height="28" viewBox="0 0 25 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <mask id="mask0_73_997" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="1" width="25" height="25">
+                                <path d="M0 1H25V26H0V1Z" fill="white"/>
+                                </mask>
+                                <g mask="url(#mask0_73_997)">
+                                <path d="M13.3165 5.32821L17.6966 9.70833C18.0629 10.0746 18.2686 10.5714 18.2686 11.0894V23.3144C18.2686 24.3931 17.3942 25.2676 16.3155 25.2676H2.68555C1.60688 25.2676 0.732422 24.3931 0.732422 23.3144V6.70926C0.732422 5.6306 1.60688 4.75614 2.68555 4.75614H11.9354C12.4534 4.75614 12.9502 4.96195 13.3165 5.32821Z" stroke="#3A3C48" stroke-width="1.7" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M15.6792 3.54769L19.4771 7.34564L17.4055 9.41722L13.6075 5.61928L15.6792 3.54769Z" stroke="#3A3C48" stroke-width="1.7" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M5.10596 7.68588H11.5309L14.4186 10.5736H5.10596C4.30854 10.5736 3.66211 9.92719 3.66211 9.12973C3.66211 8.33231 4.30854 7.68588 5.10596 7.68588Z" stroke="#3A3C48" stroke-width="1.7" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M5.10596 7.68588H11.5309L14.4186 10.5736H5.10596C4.30854 10.5736 3.66211 9.92719 3.66211 9.12973C3.66211 8.33231 4.30854 7.68588 5.10596 7.68588Z" stroke="#3A3C48" stroke-width="1.7" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M22.7051 1.73242V4.03091H21.0658L18.6141 6.48262L16.5425 4.41099L19.221 1.73242H22.7051Z" stroke="#3A3C48" stroke-width="1.7" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M24.2676 11.9863C24.2676 12.7953 23.6117 13.4512 22.8027 13.4512C21.9937 13.4512 21.3379 12.7953 21.3379 11.9863C21.3379 11.1773 22.8027 9.34961 22.8027 9.34961C22.8027 9.34961 24.2676 11.1773 24.2676 11.9863Z" stroke="#3A3C48" stroke-width="1.7" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M7.08527 15.5053H11.9158V20.3359H7.08527V15.5053Z" stroke="#3A3C48" stroke-width="1.7" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.9158 15.5053L13.3807 14.0405" stroke="#3A3C48" stroke-width="1.7" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M7.08527 15.5053L5.62042 14.0405" stroke="#3A3C48" stroke-width="1.7" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.9158 20.3359L13.3807 21.8008" stroke="#3A3C48" stroke-width="1.7" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M7.08527 20.3359L5.62042 21.8008" stroke="#3A3C48" stroke-width="1.7" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                            </svg>
+                            Топливо
+                        </a></li>
+                        <li><a href="#" class="tc-link tc-link-one _tc-text">
+                            <svg width="24" height="28" viewBox="0 0 24 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_73_1027)">
+                                <path d="M21.7969 3H2.20312C0.988312 3 0 3.95914 0 5.13809V19.6953C0 20.8742 0.988312 21.8334 2.20312 21.8334H8.805L8.10188 24.1079H6.375C5.98669 24.1079 5.67188 24.4134 5.67188 24.7903C5.67188 25.1671 5.98669 25.4727 6.375 25.4727H17.625C18.0133 25.4727 18.3281 25.1671 18.3281 24.7903C18.3281 24.4134 18.0133 24.1079 17.625 24.1079H15.8981L15.195 21.8334H21.7969C23.0117 21.8334 24 20.8742 24 19.6953V5.13809C24 3.95914 23.0117 3 21.7969 3ZM2.20312 4.36474H21.7969C22.2363 4.36474 22.5938 4.71165 22.5938 5.13809V17.5572H1.40625V5.13809C1.40625 4.71165 1.76372 4.36474 2.20312 4.36474ZM14.43 24.1079H9.57005L10.2732 21.8334H13.7269L14.43 24.1079ZM21.7969 20.4686H2.20312C1.76372 20.4686 1.40625 20.1217 1.40625 19.6953V18.9219H22.5938V19.6953C22.5938 20.1217 22.2363 20.4686 21.7969 20.4686Z" fill="#3A3C48" stroke="#3A3C48" stroke-width="0.2"/>
+                                <path d="M3.70312 12.2762H6.70312C6.94556 12.2762 7.17089 12.1549 7.29938 11.9554L8.5972 9.94023L11.7431 14.5198C12.0325 14.941 12.6794 14.9201 12.9386 14.4798L15.3429 10.3965L16.9752 13.0366C17.1023 13.2422 17.3311 13.368 17.5781 13.368H20.9531C21.3414 13.368 21.6562 13.0624 21.6562 12.6856C21.6562 12.3087 21.3414 12.0032 20.9531 12.0032H17.9762L15.931 8.69523C15.6537 8.24664 14.983 8.25715 14.7176 8.70774L12.2821 12.8441L9.16317 8.30382C8.87742 7.88785 8.25005 7.90432 7.98187 8.32066L6.31341 10.9114H3.70312C3.31481 10.9114 3 11.2169 3 11.5938C3 11.9706 3.31481 12.2762 3.70312 12.2762Z" fill="#3A3C48" stroke="#3A3C48" stroke-width="0.2"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_73_1027">
+                                <rect width="24" height="28" fill="white"/>
+                                </clipPath>
+                                </defs>
+                            </svg>
+                            Мониторинг транспорта
+                        </a></li>
+                        <li><a href="#" class="tc-link tc-link-one _tc-text">
+                            <svg width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.2916 19.8438H5.04165C3.13611 19.8438 2.3229 19.0305 2.3229 17.125V10.7813H22.2604V11.0833C22.2604 11.3237 22.3559 11.5542 22.5258 11.7242C22.6958 11.8941 22.9263 11.9896 23.1667 11.9896C23.407 11.9896 23.6375 11.8941 23.8075 11.7242C23.9774 11.5542 24.0729 11.3237 24.0729 11.0833V7.45834C24.1439 6.84612 24.0755 6.22579 23.8728 5.64374C23.6702 5.06169 23.3386 4.53299 22.9028 4.09719C22.467 3.66139 21.9383 3.32977 21.3562 3.12715C20.7742 2.92452 20.1539 2.85613 19.5417 2.92709H5.04165C4.42944 2.85613 3.8091 2.92452 3.22705 3.12715C2.645 3.32977 2.1163 3.66139 1.6805 4.09719C1.2447 4.53299 0.913088 5.06169 0.710461 5.64374C0.507834 6.22579 0.439441 6.84612 0.5104 7.45834V17.125C0.439441 17.7372 0.507834 18.3576 0.710461 18.9396C0.913088 19.5217 1.2447 20.0504 1.6805 20.4862C2.1163 20.9219 2.645 21.2536 3.22705 21.4562C3.8091 21.6588 4.42944 21.7272 5.04165 21.6563H12.2916C12.532 21.6563 12.7625 21.5608 12.9325 21.3908C13.1024 21.2209 13.1979 20.9904 13.1979 20.75C13.1979 20.5097 13.1024 20.2791 12.9325 20.1092C12.7625 19.9392 12.532 19.8438 12.2916 19.8438ZM5.04165 4.73959H19.5417C21.4472 4.73959 22.2604 5.5528 22.2604 7.45834V8.96875H2.3229V7.45834C2.3229 5.5528 3.13611 4.73959 5.04165 4.73959ZM9.87498 15.0104C10.1153 15.0104 10.3458 15.1059 10.5158 15.2759C10.6858 15.4458 10.7812 15.6763 10.7812 15.9167C10.7812 16.157 10.6858 16.3875 10.5158 16.5575C10.3458 16.7274 10.1153 16.8229 9.87498 16.8229H6.24998C6.00963 16.8229 5.77912 16.7274 5.60917 16.5575C5.43921 16.3875 5.34373 16.157 5.34373 15.9167C5.34373 15.6763 5.43921 15.4458 5.60917 15.2759C5.77912 15.1059 6.00963 15.0104 6.24998 15.0104H9.87498ZM20.75 13.8021C19.6148 13.8021 18.5051 14.1387 17.5612 14.7694C16.6174 15.4001 15.8817 16.2965 15.4473 17.3452C15.0129 18.394 14.8992 19.548 15.1207 20.6614C15.3421 21.7748 15.8888 22.7975 16.6915 23.6002C17.4942 24.4029 18.5169 24.9495 19.6302 25.171C20.7436 25.3924 21.8977 25.2788 22.9464 24.8444C23.9952 24.4099 24.8916 23.6743 25.5223 22.7304C26.1529 21.7865 26.4896 20.6769 26.4896 19.5417C26.4876 18.02 25.8823 16.5613 24.8064 15.4853C23.7304 14.4093 22.2716 13.804 20.75 13.8021ZM20.75 23.4688C19.9733 23.4688 19.214 23.2384 18.5682 22.8069C17.9224 22.3754 17.4191 21.7621 17.1218 21.0445C16.8246 20.3269 16.7468 19.5373 16.8984 18.7755C17.0499 18.0138 17.4239 17.314 17.9731 16.7648C18.5223 16.2156 19.2221 15.8416 19.9838 15.69C20.7456 15.5385 21.5352 15.6163 22.2528 15.9135C22.9704 16.2108 23.5837 16.7141 24.0152 17.3599C24.4467 18.0057 24.6771 18.765 24.6771 19.5417C24.6758 20.5828 24.2616 21.5809 23.5254 22.3171C22.7892 23.0533 21.7911 23.4675 20.75 23.4688ZM22.9008 17.8935C22.985 17.9777 23.0518 18.0776 23.0974 18.1876C23.143 18.2976 23.1665 18.4155 23.1665 18.5345C23.1665 18.6536 23.143 18.7715 23.0974 18.8815C23.0518 18.9915 22.985 19.0914 22.9008 19.1755L20.8877 21.1898C20.7174 21.3593 20.487 21.4545 20.2467 21.4545C20.0065 21.4545 19.776 21.3593 19.6057 21.1898L18.5991 20.1821C18.4391 20.0103 18.3519 19.7831 18.3561 19.5483C18.3602 19.3135 18.4553 19.0895 18.6214 18.9235C18.7874 18.7574 19.0114 18.6623 19.2462 18.6582C19.481 18.654 19.7082 18.7412 19.88 18.9013L20.2425 19.2638L21.6164 17.8899C21.7007 17.8054 21.801 17.7384 21.9113 17.6929C22.0217 17.6473 22.1399 17.624 22.2593 17.6243C22.3787 17.6247 22.4969 17.6486 22.607 17.6948C22.7171 17.741 22.8169 17.8085 22.9008 17.8935Z" fill="#3A3C48"/>
+                            </svg>
+                            Оплата ЦКАД
+                        </a></li>
+                        <li><a href="#" class="tc-link tc-link-one _tc-text">
+                            <svg width="24" height="28" viewBox="0 0 24 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_73_1099)">
+                                <path d="M20.4835 5.51674C15.795 0.828269 8.20592 0.827565 3.51679 5.51674C-1.17173 10.2052 -1.17248 17.7943 3.51679 22.4834C8.20526 27.1719 15.7943 27.1726 20.4835 22.4834C25.1719 17.795 25.1727 10.2059 20.4835 5.51674ZM12.0001 24.0265C6.4715 24.0265 1.97364 19.5286 1.97364 14.0001C1.97364 8.47149 6.4715 3.97369 12.0001 3.97369C17.5287 3.97369 22.0265 8.47154 22.0265 14.0001C22.0265 19.5287 17.5287 24.0265 12.0001 24.0265Z" fill="#3A3C48"/>
+                                <path d="M13.5016 8.00916H9.99781C9.45357 8.00916 9.01238 8.45035 9.01238 8.99459V13.0146H7.99569C7.45145 13.0146 7.01025 13.4558 7.01025 14C7.01025 14.5442 7.45145 14.9854 7.99569 14.9854H9.01238V16.0178H7.99569C7.45145 16.0178 7.01025 16.459 7.01025 17.0032C7.01025 17.5475 7.45145 17.9887 7.99569 17.9887H9.01238V19.0054C9.01238 19.5496 9.45357 19.9908 9.99781 19.9908C10.5421 19.9908 10.9832 19.5496 10.9832 19.0054V17.9887H13.001C13.5453 17.9887 13.9865 17.5475 13.9865 17.0032C13.9865 16.459 13.5453 16.0178 13.001 16.0178H10.9832V14.9854H13.5016C15.4249 14.9854 16.9897 13.4207 16.9897 11.4973C16.9897 9.57393 15.425 8.00916 13.5016 8.00916ZM13.5016 13.0145H10.9832V9.97998H13.5016C14.3382 9.97998 15.0188 10.6606 15.0188 11.4972C15.0188 12.3339 14.3382 13.0145 13.5016 13.0145Z" fill="#3A3C48"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_73_1099">
+                                <rect width="24" height="28" fill="white"/>
+                                </clipPath>
+                                </defs>
+                            </svg>
+                            Баланс
+                        </a></li>
+                    </ul>
+                </nav>
+                <a href="#" class="tc-link tc-link-one _tc-text">
+                    <svg width="27" height="24" viewBox="0 0 27 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M23.7666 3.5759H18.4038C18.3957 2.15405 17.3973 1.00006 16.1708 1.00006H3.2334C2.00191 1.00006 1 2.1634 1 3.59322V12.6226C1 14.0525 2.00191 15.2158 3.2334 15.2158H4.61387V18.4918C4.61387 18.8382 4.83868 19.144 5.16759 19.2449C5.24278 19.268 5.31934 19.2791 5.39508 19.2791C5.65055 19.2791 5.89601 19.1524 6.04381 18.9305L8.51798 15.2158H8.59616C8.60426 16.6377 8.59616 18.7494 10.8292 18.9367H18.482L20.9561 22.6514C21.1039 22.8734 21.3494 23.0001 21.6049 23.0001C21.6806 23.0001 21.7572 22.9889 21.8324 22.9659C22.1613 22.8649 22.3861 22.5592 22.3861 22.2127V18.9367H23.7666C24.9981 18.9367 26 16.6283 26 15.1985V6.16902C26 4.73914 24.9981 3.5759 23.7666 3.5759ZM6.17638 14.4285C6.17638 13.9937 5.82657 13.6413 5.39513 13.6413H3.2334C2.91607 13.6413 2.5625 13.2229 2.5625 12.6226V3.59322C2.5625 2.99293 2.91607 2.5746 3.2334 2.5746H16.1708C16.4882 2.5746 16.8417 2.99293 16.8417 3.59322V12.6226C16.8417 13.2229 16.4882 13.6413 16.1708 13.6413H8.10148C7.83121 13.6413 7.59308 13.7796 7.4528 13.9898L6.17643 15.9061L6.17638 14.4285ZM24.4375 15.1985C24.4375 15.7987 24.084 17.3622 23.7666 17.3622H21.6049C21.1734 17.3622 20.8236 17.7146 20.8236 18.1495V19.6271L19.5473 17.7107C19.3967 17.4846 19.15 17.3624 18.8986 17.3622C18.8986 17.3622 11.4995 17.3622 10.8292 17.3622C10.159 17.3622 10.1658 15.8066 10.159 15.2158H16.1708C17.4023 15.2158 18.4042 14.0525 18.4042 12.6226V5.15044H23.7666C24.084 5.15044 24.4375 5.56878 24.4375 6.16902V15.1985ZM14.1135 10.9121H5.23209C4.80064 10.9121 4.45084 10.5597 4.45084 10.1248C4.45084 9.69003 4.80064 9.33758 5.23209 9.33758H14.1135C14.5449 9.33758 14.8948 9.69003 14.8948 10.1248C14.8948 10.5597 14.5449 10.9121 14.1135 10.9121ZM4.50943 6.09108C4.50943 5.65626 4.85924 5.30381 5.29068 5.30381H14.1721C14.6035 5.30381 14.9533 5.65626 14.9533 6.09108C14.9533 6.5259 14.6035 6.87835 14.1721 6.87835H5.29068C4.85924 6.87835 4.50943 6.5259 4.50943 6.09108Z" fill="#3A3C48" stroke="#4E505A" stroke-width="0.3"/>
+                    </svg>
+                    Служба поддержки
+                </a>
+            </div>
         </main>
     </div>
 
