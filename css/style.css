@@ -93,6 +93,12 @@ body {
   font-family: "Golos Text VF";
 }
 
+._tc-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 122.2222222222%;
+}
+
 .wrapper {
   min-height: 100%;
   overflow: hidden;
@@ -208,9 +214,6 @@ body {
   -webkit-column-gap: 19px;
      -moz-column-gap: 19px;
           column-gap: 19px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 122.2222222222%;
   color: #3A3C48;
 }
 .tc-link:hover {
@@ -265,9 +268,6 @@ body {
 }
 
 .tc-top-money {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 122.2222222222%;
   color: #4E505A;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -329,10 +329,6 @@ body {
   font-size: 14px;
   line-height: 121.4285714286%;
   color: #4E505A;
-}
-.tc-top-question-item span {
-  font-size: 18px;
-  line-height: 122.2222222222%;
 }
 .tc-top-question-item:nth-of-type(1) span {
   color: #8E909D;
@@ -422,9 +418,6 @@ body {
 
 .tc-top-user-name {
   font-family: "Inter";
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 122.2222222222%;
   color: #4E505A;
   text-overflow: ellipsis;
   width: 151px;
@@ -462,9 +455,6 @@ body {
 }
 
 .tc-body-btn {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 122.2222222222%;
   color: #4E505A;
   -webkit-column-gap: 15px;
      -moz-column-gap: 15px;
@@ -495,9 +485,6 @@ body {
 .tc-body-search input {
   width: 100%;
   background-color: transparent;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 122.2222222222%;
   color: #B0B1BB;
 }
 .tc-body-search input::-ms-clear {
@@ -515,9 +502,6 @@ body {
   -webkit-box-shadow: 0px 0px 10px rgba(68, 33, 33, 0.1);
           box-shadow: 0px 0px 10px rgba(68, 33, 33, 0.1);
   border-radius: 5px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 122.2222222222%;
   color: #FFFFFF;
   height: 52px;
   padding: 0 30px;
@@ -776,9 +760,7 @@ body {
 }
 
 .pop-up-label {
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 122.2222222222%;
+  font-weight: 600 !important;
   color: #8E909D;
   margin-bottom: 10px;
 }
@@ -796,9 +778,6 @@ body {
   padding-left: 30px;
 }
 .pop-up-input input {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 122.2222222222%;
   color: #BCBDC5;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
@@ -894,9 +873,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 122.2222222222%;
   color: #BCBDC5;
   padding-left: 30px;
 }
