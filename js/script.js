@@ -46,13 +46,14 @@ window.addEventListener('click', function(event) {
         tcThanks.classList.remove('pop-up-thanks-active');
         popUp.classList.remove('pop-up-open');
     }
-})
 
-let menuBtn = document.querySelector('.menu-btn');
-let menu = document.querySelector('.menu');
-let body = document.body;
-menuBtn.addEventListener('click', function(){
-	menuBtn.classList.toggle('active');
-	menu.classList.toggle('active');
-    body.classList.toggle('overflow');
+    if (event.target.closest('.menu-btn')) {
+        let menuBtn = document.querySelector('.menu-btn');
+        let menu = document.querySelector('.menu');
+        let body = document.body;
+
+        menuBtn.classList.toggle('active');
+        menu.classList.toggle('active');
+        body.classList.toggle('overflow');
+    }
 })
