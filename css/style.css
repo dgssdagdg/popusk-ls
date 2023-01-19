@@ -924,6 +924,12 @@ body {
   row-gap: 25px;
 }
 
+.pop-up-input {
+  cursor: pointer;
+  position: relative;
+  z-index: 3;
+}
+
 .pop-up-form-close {
   font-weight: 400;
   font-size: 16px;
