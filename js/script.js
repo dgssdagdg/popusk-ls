@@ -1,4 +1,4 @@
-window.addEventListener('click', function(event) {
+document.addEventListener('click', function(event) {
     let popUp = document.querySelector('.pop-up');
     if (event.target.closest('.pop-up-active')) {
         popUp.classList.toggle('pop-up-open');

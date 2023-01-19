@@ -575,7 +575,7 @@ body {
           box-shadow: 0px 0px 10px rgba(68, 33, 33, 0.1);
   border-radius: 5px;
   color: #FFFFFF;
-  height: 52px;
+  min-height: 52px;
   padding: 0 30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -950,6 +950,10 @@ body {
   position: relative;
 }
 
+.pop-up-active {
+  cursor: pointer;
+}
+
 .pop-up-list {
   position: absolute;
   width: 100.3%;
@@ -1007,6 +1011,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   position: absolute;
+  z-index: 4;
   top: 0;
   left: 0;
   width: 100%;
