@@ -790,7 +790,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  z-index: 2;
+  z-index: 4;
   background-color: rgba(245, 245, 245, 0.8);
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
