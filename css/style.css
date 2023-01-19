@@ -93,6 +93,10 @@ body {
   font-family: "Golos Text VF";
 }
 
+.overflow {
+  overflow: hidden;
+}
+
 ._tc-text {
   font-weight: 400;
   font-size: 18px;
@@ -183,7 +187,7 @@ body {
 .tc-nav::before {
   width: 100%;
   height: 1px;
-  background-color: #CBCDD8;
+  background: linear-gradient(45deg, rgb(203, 205, 216) 40%, rgb(203, 205, 216) 100%, rgb(203, 205, 216) 100%, rgb(203, 205, 216) 40%);
   content: "";
   position: absolute;
   bottom: 0;
@@ -474,6 +478,7 @@ body {
 
 .tc-select {
   position: relative;
+  cursor: pointer;
 }
 
 .tc-select-top {
@@ -525,6 +530,7 @@ body {
 }
 
 .tc-select-top-item {
+  cursor: pointer;
   width: 100%;
   font-weight: 400;
   font-size: 14px;
@@ -930,6 +936,7 @@ body {
 
 .pop-up-input-active {
   position: relative;
+  cursor: pointer;
 }
 
 .pop-up-list {
@@ -958,6 +965,7 @@ body {
           align-items: center;
   color: #BCBDC5;
   padding-left: 30px;
+  cursor: pointer;
 }
 .pop-up-item:hover {
   background-color: #F1F2F3;
@@ -1014,6 +1022,10 @@ body {
   max-width: 383px;
 }
 
+.tc-body-btn-red {
+  cursor: pointer;
+}
+
 .pop-up-thanks-active {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -1027,6 +1039,7 @@ body {
   position: relative;
   z-index: 2;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .menu-btn span {
@@ -1056,7 +1069,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  padding: 106.41px 15px 120px;
+  padding: 0px 15px 120px;
   background: #FFFFFF;
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
@@ -1064,8 +1077,11 @@ body {
   transition: -webkit-transform 0.5s;
   transition: transform 0.5s;
   transition: transform 0.5s, -webkit-transform 0.5s;
-  z-index: 5;
+  z-index: 7;
   overflow-y: auto;
+}
+.menu .tc-one {
+  padding: 20px 0px 20px 0px;
 }
 
 .menu.active {
@@ -1188,6 +1204,7 @@ body {
   padding-right: 4px;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  cursor: pointer;
 }
 
 .table-mini-top-text-item {
@@ -1229,6 +1246,7 @@ body {
   line-height: 120%;
   color: #4E505A;
   padding-left: 10px;
+  cursor: pointer;
 }
 .table-mini-item span {
   color: #8e909d;
@@ -1359,15 +1377,13 @@ body {
   }
   .tc-one {
     z-index: 6;
-    position: fixed;
+    position: relative;
     width: 100%;
-    top: 0;
-    left: 0;
     background-color: #FFFFFF;
   }
   .tc-content {
     position: static;
-    padding: 106.41px 0 86px;
+    padding: 0 0 86px;
   }
   .tc-logo-img img {
     max-width: 50px;
@@ -1444,9 +1460,6 @@ body {
   }
   .navigation-row {
     padding: 0 45px;
-  }
-  .tc-content {
-    padding-top: 93.13px;
   }
   .tc-logo-img img {
     width: 40px;

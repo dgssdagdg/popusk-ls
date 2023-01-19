@@ -31,7 +31,7 @@ window.addEventListener('click', function(event) {
         let tcSelect = event.target.closest('.tc-select');
         tcSelect.classList.toggle('tc-select-open');
     }
-    let tcInput = document.querySelector('.tc-select-top-input')
+    // let tcInput = document.querySelector('.tc-select-top-input')
     if (event.target.closest('.tc-select-top-item')) {
         let tcSelect = event.target.closest('.tc-select');
         let tcInput = tcSelect.querySelector('.tc-select-top-input')
@@ -51,7 +51,9 @@ window.addEventListener('click', function(event) {
 
 let menuBtn = document.querySelector('.menu-btn');
 let menu = document.querySelector('.menu');
+let body = document.body;
 menuBtn.addEventListener('click', function(){
 	menuBtn.classList.toggle('active');
 	menu.classList.toggle('active');
+    body.classList.toggle('overflow');
 })
