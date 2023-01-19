@@ -477,8 +477,9 @@ body {
 }
 
 .tc-select {
-  position: relative;
   cursor: pointer;
+  position: relative;
+  z-index: 2;
 }
 
 .tc-select-top {
@@ -866,6 +867,8 @@ body {
   border-radius: 5px;
   padding-left: 30px;
   cursor: pointer;
+  position: relative;
+  z-index: 2;
 }
 .pop-up-input input {
   color: #BCBDC5;
@@ -902,6 +905,8 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   cursor: pointer;
+  position: relative;
+  z-index: 2;
 }
 
 .pop-up-form-buttons {
@@ -1024,6 +1029,8 @@ body {
 
 .tc-body-btn-red {
   cursor: pointer;
+  position: relative;
+  z-index: 2;
 }
 
 .pop-up-thanks-active {
@@ -1239,6 +1246,8 @@ body {
       -ms-flex-align: center;
           align-items: center;
   cursor: pointer;
+  position: relative;
+  z-index: 2;
 }
 
 .table-mini-item {

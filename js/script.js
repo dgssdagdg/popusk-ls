@@ -31,7 +31,6 @@ window.addEventListener('click', function(event) {
         let tcSelect = event.target.closest('.tc-select');
         tcSelect.classList.toggle('tc-select-open');
     }
-    // let tcInput = document.querySelector('.tc-select-top-input')
     if (event.target.closest('.tc-select-top-item')) {
         let tcSelect = event.target.closest('.tc-select');
         let tcInput = tcSelect.querySelector('.tc-select-top-input')
