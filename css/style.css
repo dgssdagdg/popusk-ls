@@ -865,6 +865,7 @@ body {
   border: 1px solid #DDE6E9;
   border-radius: 5px;
   padding-left: 30px;
+  cursor: pointer;
 }
 .pop-up-input input {
   color: #BCBDC5;
@@ -936,7 +937,6 @@ body {
 
 .pop-up-input-active {
   position: relative;
-  cursor: pointer;
 }
 
 .pop-up-list {
@@ -1238,6 +1238,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
 }
 
 .table-mini-item {
